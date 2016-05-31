@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.0.2/react.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.0.2/react-dom.js"></script>
+</head>
+<body>
+  <div id="app"></div>
+  <script type="text/javascript">
+var HelloWorld = React.createClass({
+  render: function() {
+    return React.createElement("h1", null, "Hello, World");
+  }
+});
+
+ReactDOM.render(
+  React.createElement(HelloWorld),
+  document.getElementById('app')
+);
+  </script>
+</body>
+</html>
